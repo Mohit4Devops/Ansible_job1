@@ -8,7 +8,7 @@
       - name: i want install wbser on node
         apt: 
           name: apache2
-          state: absent
+          state: present 
         when: ansible_os_family =="Debian"
 
       - name: i want start wbser on node
