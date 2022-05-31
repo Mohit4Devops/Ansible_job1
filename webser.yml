@@ -2,13 +2,30 @@
   - hosts: all
     become: yes
     tasks:
+
+
+
       - name: i want install wbser on node
         apt: 
           name: apache2
           state: absent
+        when: ansible_os_family =="Debian"
 
       - name: i want start wbser on node
         service: 
           name: apache2
-          state: stopped 
+          state: started
+        when: ansible_os_family =="Debian"
+    
+      - name: 
+        yum: 
+          name: httpd
+          state: present  
+        when: ansible_os_family =="RedHat"
+
+      - name: i want start wbser on node redhat 
+        service: 
+          name: httpd 
+          state: started
+        when: ansible_os_family =="RedHat"          
         
