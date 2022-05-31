@@ -1,2 +1,2 @@
-myjavapkgforUbuntu: openjdk-8-jre
-myjavapkgforREDHAT: java-1.13.0-openjdk
+myjavapkgforUbuntu: openjdk-7-jre
+myjavapkgforREDHAT: java-1.7.0-openjdk 
