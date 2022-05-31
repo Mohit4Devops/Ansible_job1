@@ -5,7 +5,7 @@
       - name: i want install wbser on node
         apt: 
           name: apache2
-          state: present
+          state: absent
 
       - name: i want start wbser on node
         service: 
