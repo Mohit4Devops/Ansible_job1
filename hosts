@@ -2,6 +2,6 @@
 172.31.25.201
 172.31.21.183 
 
-[mywebservers:var]
-myjavapkgforUbuntu: openjdk-8-jdk
-myjavapkgforREDHAT: java-1.7.0-openjdk
+[mywebservers:vars]
+Ubuntupkg: openjdk-8-jdk
+redhatpkg: java-1.7.0-openjdk
