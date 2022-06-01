@@ -7,9 +7,3 @@
 
 [myRedhatservers]
 172.31.25.201
-
-
-
-[mywebservers:vars]
-Ubuntupkg: apache2
-redhatpkg: httpd
