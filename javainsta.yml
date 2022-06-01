@@ -4,13 +4,13 @@
     tasks:
     - name: install Java on ubuntu node
       apt: 
-       name: "{{myjavapkgforUbuntu}}"
+       name: openjdk-7-jre
        state: present
       when: ansible_os_family=="Debian" 
 
     - name:
       yum:
-       name: "{{myjavapkgforREDHAT}}"
+       name: java-1.7.0-openjdk
        state: present
       when: ansible_os_family=="RedHat"
       
