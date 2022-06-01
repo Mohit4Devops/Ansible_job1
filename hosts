@@ -2,6 +2,12 @@
 172.31.25.201
 172.31.21.183 
 
+[myUbantuservers]
+172.31.21.183
+
+[myRedhatservers]
+172.31.25.201
+
 
 
 [mywebservers:vars]
