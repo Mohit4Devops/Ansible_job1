@@ -1,8 +1,9 @@
 [mywebservers]
-172.31.21.183 
 172.31.25.201
+172.31.21.183 
+
 
 
 [mywebservers:vars]
-Ubuntupkg: openjdk-8-jdk
-redhatpkg: java-1.7.0-openjdk
+Ubuntupkg: apache2
+redhatpkg: httpd
