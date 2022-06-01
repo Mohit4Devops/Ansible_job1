@@ -1,2 +1,3 @@
-myjavapkgforUbuntu: openjdk-7-jre
-myjavapkgforREDHAT: java-1.7.0-openjdk 
+[mywebservers:var]
+myjavapkgforUbuntu: openjdk-8-jdk
+myjavapkgforREDHAT: java-1.7.0-openjdk
