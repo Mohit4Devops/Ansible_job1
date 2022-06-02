@@ -1,9 +1,0 @@
---- 
-- hosts: 172.31.25.201
-  become: yes
-  tasks: 
-   - name: i want copy index file
-     template:
-      src: myindex.j2
-      dest: /var/www/html/index.html
-    
