@@ -1,5 +1,6 @@
 ---
 - name: Restart tomcat
-  command: sudo systemctl restart tomcat
-
+  systemd:
+     name: tomcat
+     state: restarted
     
