@@ -21,7 +21,6 @@
 - name: Make the tomcat user the owner of the webapps
   file:
     path: /opt/tomcat/webapps
-    group: tomcat 
     state: directory
     recurse: yes
     owner: tomcat
@@ -29,7 +28,6 @@
 - name: Make the tomcat user the owner of the work
   file:
     path: /opt/tomcat/work
-    group: tomcat 
     state: directory
     recurse: yes
     owner: tomcat
@@ -37,7 +35,6 @@
 - name: Make the tomcat user the owner of the temp
   file:
     path: /opt/tomcat/temp
-    group: tomcat 
     state: directory
     recurse: yes
     owner: tomcat
@@ -45,7 +42,6 @@
 - name: Make the tomcat user the owner of the logs 
   file:
     path: /opt/tomcat/logs
-    group: tomcat 
     state: directory
     recurse: yes
     owner: tomcat
