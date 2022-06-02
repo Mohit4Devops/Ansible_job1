@@ -1,6 +1,0 @@
----
-# tasks file for webrole
-      - name: i want install wbser on node
-        apt: 
-          name: apache2
-          state: present 
