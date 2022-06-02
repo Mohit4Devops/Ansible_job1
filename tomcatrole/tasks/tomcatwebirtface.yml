@@ -1,0 +1,15 @@
+--- 
+- name:  copy tomcat user file
+  template:
+     src: template/tomcatuser.j2
+     dest: /opt/tomcat/conf/tomcat-users.xml
+
+- name: copy context file 
+  template:
+     src: template/tomcatcontext.j2
+     dest: sudo nano /opt/tomcat/webapps/manager/META-INF/context.xml
+
+- name: copy host file 
+  template:
+     src: template/tomcathost.j2
+     dest: sudo nano /opt/tomcat/webapps/host-manager/META-INF/context.xml       

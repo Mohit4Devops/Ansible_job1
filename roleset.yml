@@ -1,5 +1,5 @@
 ---
- - hosts: all
+ - hosts: 172.31.25.201
    become: yes
    roles:
     - webrole

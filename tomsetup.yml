@@ -1,0 +1,5 @@
+---
+- hosts: myapplicationserver
+  become: yes
+  roles:
+   - {role: tomcatfrole, when:  ansible_os_family == "Debian"}

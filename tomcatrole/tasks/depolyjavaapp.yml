@@ -1,0 +1,6 @@
+---
+- name: deploy java application
+  get_url:
+     url: http://csci.viu.ca/~barskym/teaching/DM2012/labs/LAB6/Lab6A.war
+     dest: /opt/tomcat/webapps/Lab6A.war
+     force_basic_auth: yes

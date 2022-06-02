@@ -1,2 +1,11 @@
 ---
-# tasks file for tomcatrole
+# tasks file for tomcatrole  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
+- include_tasks: installjava.yml
+- include_tasks: tomcatuser.yml
+- include_tasks: installtomcat.yml
+- include_tasks: updatepermission.yml
+- include_tasks: servicefile.yml
+- include_tasks: starttomcat.yml
+- include_tasks: tomcatwebirtface.yml
+- include_tasks: depolyjavaapp.yml
+- include_tasks: restarttomcat.yml
